@@ -1,0 +1,88 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+img {
+    width:2.5em;
+}
+
+h1 {
+
+    font-size: 4em;
+    margin: 0;
+}
+
+nav {
+    z-index: 2;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 0.5em;
+    border: 2px solid black;
+    padding: 1em;
+    width: 100px;  
+    list-style: none;
+
+}
+
+section {
+    z-index: 0;
+    position: absolute;
+    top: 25em;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+.blueBG {
+	background-color: rgb(132, 176, 226); 
+}
+
+.redBG {
+	background-color: rgb(226, 132, 132); 
+}
+
+.greenBG {
+	background-color: rgb(140, 226, 132); 
+}
+
+.yellowBG {
+	background-color: rgb(226, 217, 132); 
+}
+
+
+/* RANDOM EXTRA */
+
+.meatBG {
+    background-image: url("meat.jpg");
+}
+
+
+
+.button {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    margin-top: 0.5em;
+    border: 2px solid black;
+    padding: 1em;
+    width: 100px;  
+    list-style: none;
+background-color: rgba(0, 0, 0, 0);
+
+}
